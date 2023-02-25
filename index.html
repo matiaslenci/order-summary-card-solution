@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- BT -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <main class="main d-flex flex-column">
+      <article class="component d-flex flex-column">
+        <!--? illustration  -->
+        <div class="container-img">
+          <img src="./images/illustration-hero.svg" alt="" class="img" />
+        </div>
+        <!--? body card -->
+        <div
+          class="justify-content-center d-flex flex-column align-items-center body-component"
+        >
+          <span class="title">Order Summary</span>
+          <p class="text">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <!--? Plan -->
+          <section class="d-flex flex-row plan align-items-center">
+            <div
+              class="circle py-2 px-4 justify-content-center d-flex align-items-center"
+            >
+              <img src="./images/icon-music.svg" alt="" />
+            </div>
+            <div class="d-flex flex-column align-items-center plan-price">
+              <span class="plan-name">Annual Plan</span>
+              <p>$59.99/year</p>
+            </div>
+            <div class="p-2 justify-content-center d-flex align-items-center">
+              <a href="#"><span class="plan-change">Change</span></a>
+            </div>
+          </section>
+          <!--? Buttons -->
+          <section
+            class="container-btn justify-content-center d-flex align-items-center flex-column pb-4"
+          >
+            <button class="btn-pay p-2 btn">Proceed to Payment</button>
+            <button class="btn-cancel p-2 btn">Cancel Order</button>
+          </section>
+        </div>
+      </article>
+
+      <!--? Credits -->
+       <article class="attribution pt-4">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/matiaslenci" target="_blank">Matias Lenci</a>.
+    </article> 
+    </main>
+  </body>
+  <!-- BT -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+</html>
